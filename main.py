@@ -8,9 +8,9 @@ def saludar():
 ventana = tk.Tk()
 ventana.title("Saludo personalizado")
 ventana.geometry("300x150")
-ventana2 = tk.TK()
-ventana2.title("Saludo personalizado")
-ventana2.geometry("300x150")
+ventana2 = tk.Tk()
+ventana2.title("VENTANA 2")
+ventana2.geometry("800x600")
 
 # Etiqueta y campo de entrada
 etiqueta = tk.Label(ventana, text="¿Cómo te llamas?")
